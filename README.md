@@ -11,6 +11,7 @@
 
 ## Back-End
 - Node.js
+- MongoDB
 
 # Preview
 
