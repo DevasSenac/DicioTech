@@ -13,7 +13,7 @@
 | `Mongo Atlas` | Interface gráfica para verificar se os dados foram persistidos. |
 | `Postman`     | Interface gráfica para realizar os testes.                      |
 
-## :bookmark: Pacotes Utilizadas
+### :bookmark: Pacotes Utilizadas
 
 | Ferramenta | Descrição                                                                                                |
 | ---------- | -------------------------------------------------------------------------------------------------------- |
@@ -57,9 +57,9 @@
 
 ```
 
-## Interface Gráfica Para Realizar os Testes
+## :repeat_one: Interface Gráfica Para Realizar os Testes
 
-📌 Este projeto está com os métodos HTTP organizados. Você pode testar as rotas Get, Post,Delete e Update através de qualquer ferramenta API REST, como Insomnia, Thunder Client, Postman, entre outros. Nesse projeto, utilizamos o [Postman](https://www.postman.com/downloads/).
+Este projeto está com os métodos HTTP organizados. Você pode testar as rotas Get, Post,Delete e Update através de qualquer ferramenta API REST, como Insomnia, Thunder Client, Postman, entre outros. Nesse projeto, utilizamos o [Postman](https://www.postman.com/downloads/).
 
 ## :on: Testando Rotas
 
@@ -73,15 +73,15 @@
 | PUT    | /:id            | Altera dados do Usuario identificado pelo id      |
 | DELETE | /:id            | Remove o cadastro do Usuario identificado pelo id |
 
-# Clonar e Contribuir para o Projeto
+# :heavy_plus_sign: Clonar e Contribuir para o Projeto
 
 Este documento fornece instruções técnicas sobre como com o projeto. O processo de clonar e contribuir, envolve o uso de comandos do Git para clonar o repositório, criar uma ramificação, fazer alterações e enviar um pedido de pull. Siga as etapas abaixo para começar:
 
-## Pré-requisitos
+## :warning: Pré-requisitos
 
 Antes de prosseguir, certifique-se de ter o Git instalado no seu sistema. Caso contrário, você pode baixá-lo e instalá-lo a partir do site oficial do Git (https://git-scm.com/).
 
-## Clonar o Repositório
+### Clonar o Repositório
 
 1. Abra o terminal ou prompt de comando.
 
@@ -93,7 +93,7 @@ Antes de prosseguir, certifique-se de ter o Git instalado no seu sistema. Caso c
 git clone https://github.com/DevasSenac/DicioTech.git
 ```
 
-## Criar uma Ramificação (Branch)
+### Criar uma Ramificação (Branch)
 
 1. Navegue para o diretório do projeto clonado usando o comando `cd DicioTech`.
 
@@ -105,13 +105,13 @@ git checkout -b <nome_da_branch>
 
 Substitua `<nome_da_branch>` pelo nome descritivo da branch que você deseja criar.
 
-## Fazer Alterações
+### Fazer Alterações
 
 1. Abra o projeto clonado em seu editor de código.
 
 2. Faça as alterações desejadas nos arquivos.
 
-## Commit das Alterações
+### Commit das Alterações
 
 1. Volte para o terminal ou prompt de comando.
 
@@ -129,7 +129,7 @@ Esse comando adicionará todos as alterações feitas aos arquivos no diretório
 git commit -m "Mensagem do commit"
 ```
 
-## Enviar um Pedido de Pull
+### Enviar um Pedido de Pull Request
 
 1. Execute o seguinte comando para enviar sua ramificação (branch) e as alterações para o repositório remoto no GitHub:
 
