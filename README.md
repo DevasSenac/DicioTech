@@ -1,9 +1,10 @@
+# :video_game: Bem-vindes ao Projeto DICIOTECH!
+[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-9C27B0.svg)](https://github.com/seu-usuario/seu-repositorio)
+
 ![](https://media.tenor.com/2a4KThsm4YgAAAAj/gaming-game-on.gif)
 
 
-# :video_game: Bem-vindes ao Projeto DICIOTECH!
 
-[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-FFA500.svg)](https://github.com/seu-usuario/seu-repositorio)
 
 # Sobre o Projeto
 
