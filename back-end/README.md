@@ -1,6 +1,6 @@
 
-# :books: DicioTech
-###  Documentação Tecnica da Arquitetura, Funcionalidades e Demonstração da Aplicação 
+# :books: DicioTech - Documentação Tecnica 
+### Arquitetura, Funcionalidades e Demonstração da Aplicação 
 
 ## :ledger: Tecnologias Utilizadas
 
@@ -13,7 +13,7 @@
 | `Mongo Atlas` | Interface gráfica para verificar se os dados foram persistidos. |
 | `Postman`     | Interface gráfica para realizar os testes.                      |
 
-### :bookmark: Pacotes Utilizadas
+## :bookmark: Pacotes Utilizadas
 
 | Ferramenta | Descrição                                                                                                |
 | ---------- | -------------------------------------------------------------------------------------------------------- |
@@ -73,7 +73,7 @@ Este projeto está com os métodos HTTP organizados. Você pode testar as rotas 
 | PUT    | /:id            | Altera dados do Usuario identificado pelo id      |
 | DELETE | /:id            | Remove o cadastro do Usuario identificado pelo id |
 
-# :heavy_plus_sign: Clonar e Contribuir para o Projeto
+## :heavy_plus_sign: Clonar e Contribuir para o Projeto
 
 Este documento fornece instruções técnicas sobre como com o projeto. O processo de clonar e contribuir, envolve o uso de comandos do Git para clonar o repositório, criar uma ramificação, fazer alterações e enviar um pedido de pull. Siga as etapas abaixo para começar:
 
@@ -121,8 +121,8 @@ Substitua `<nome_da_branch>` pelo nome descritivo da branch que você deseja cri
 git add .
 ```
 
-Esse comando adicionará todos as alterações feitas aos arquivos no diretório atual.
-
+_Esse comando adicionará todos as alterações feitas aos arquivos no diretório atual.
+_
 3. Em seguida, execute o seguinte comando para criar um commit com uma mensagem descritiva das alterações:
 
 ```git
@@ -147,14 +147,10 @@ Substitua `<main>` pelo nome da branch que você criou anteriormente.
 
 5. Clique em "Create pull request" para enviar o pedido de pull.
 
-<h1 align="center">
 
-# Status Do Projeto
+## :triangular_flag_on_post: Status Do Projeto
 
 O projeto encontra-se em desenvolvimento, o que significa que novas funcionalidades e melhorias estão sendo integradas continuamente. Fique à vontade para acompanhar o repositório para obter as últimas atualizações e contribuir com o projeto.
 
-
-
-</h1>
 
 </span>
