@@ -1,18 +1,23 @@
+![](https://media.tenor.com/2a4KThsm4YgAAAAj/gaming-game-on.gif)
+
+
 # :video_game: Bem-vindes ao Projeto DICIOTECH!
+
+[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-FFA500.svg)](https://github.com/seu-usuario/seu-repositorio)
 
 # Sobre o Projeto
 
-O DICIOTECH funcionará como um dicionário tecnológico, oferecendo um passatempo educativo com palavras frequentemente usadas na área da tecnologia, suas traduções e significados. Sua didática será através de jogos interativos e recursos adicionais, tornando o aprendizado divertido e acessível a todos os interessados em tecnologia. Este projeto foi desenvolvido pela turma de Programação FullStack do SENAC/CETII.
+O DICIOTECH funcionará como um dicionário tecnológico, oferecendo um passatempo educativo com palavras frequentemente usadas na área da tecnologia, suas traduções e significados. Sua didática será através de recursos interativos, tornando o aprendizado divertido e acessível a todos os interessados em tecnologia.
 
 # Tecnologias Utilizadas
 
-## Front-end
+### Front-end
 
-- **JavaScript**: Utilizado para programação do lado do cliente, fornecendo interatividade e dinamismo às páginas.
+- **JavaScript**: Utilizado para programação do lado do Usuário, fornecendo interatividade e dinamismo às páginas.
 - **HTML**: Responsável pela estruturação e marcação do conteúdo das páginas web.
 - **CSS**: Utilizado para definir o estilo e a aparência das páginas web.
 
-## Back-end
+### Back-end
 
 - **JavaScript**: Utilizado para programação do lado do servidor.
 - **Node.js**: Um ambiente de execução do JavaScript no servidor, permitindo a construção de aplicações escaláveis e de alto desempenho.
@@ -21,15 +26,15 @@ O DICIOTECH funcionará como um dicionário tecnológico, oferecendo um passatem
 - **Chalk**: Uma biblioteca para estilizar a saída de texto no console, facilitando a leitura e a depuração durante o desenvolvimento.
 - **Mongoose**: Uma biblioteca do Node.js que fornece uma camada de abstração sobre o MongoDB, simplificando a interação com o banco de dados.
 
-## Banco de Dados
+### Banco de Dados
 
 - **MongoDB**: Um banco de dados NoSQL orientado a documentos, utilizado para armazenar e recuperar dados de forma eficiente e flexível.
 
-## Testes
+### Testes
 
 - **Postman**: Uma plataforma de testes de API que permite testar, documentar e colaborar no desenvolvimento de APIs.
 
-# Metodologias Ágeis
+## Metodologias Ágeis
 
 Estamos utilizando as seguintes metodologias ágeis para o desenvolvimento do projeto:
 
@@ -39,11 +44,11 @@ Execução de testes do código utilizando TDD (Test-Driven Development).
 
 Aplicação do Lean para otimizar e enxugar os processos.
 
-# Gerenciamento do Projeto
+## Gerenciamento do Projeto
 
 Para o gerenciamento do projeto, realizamos uma análise SWOT, identificando os pontos fortes, fracos, oportunidades e ameaças. Essa análise nos ajudou a traçar estratégias e tomar decisões informadas ao longo do desenvolvimento.
 
-# Interface do Projeto
+## Interface do Projeto
 
 Para a interface do projeto, estamos aprendendo sobre UX (User Experience) e UI (User Interface) para criar uma experiência intuitiva e agradável para os usuários.
 Utilizaremos a ferramenta Figma para a prototipação e design.
