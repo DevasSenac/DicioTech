@@ -1,5 +1,6 @@
 
 # :books: DicioTech - Documentação Tecnica 
+
 ### Arquitetura, Funcionalidades e Demonstração da Aplicação 
 
 ## :ledger: Tecnologias Utilizadas
@@ -13,7 +14,7 @@
 | `Mongo Atlas` | Interface gráfica para verificar se os dados foram persistidos. |
 | `Postman`     | Interface gráfica para realizar os testes.                      |
 
-## :bookmark: Pacotes Utilizadas
+## :bookmark: Pacotes Utilizados
 
 | Ferramenta | Descrição                                                                                                |
 | ---------- | -------------------------------------------------------------------------------------------------------- |
@@ -63,7 +64,7 @@ Este projeto está com os métodos HTTP organizados. Você pode testar as rotas 
 
 ## :on: Testando Rotas
 
- <h3> :round_pushpin: Os métodos e rotas serão:</h3>
+ <h3> Os métodos e rotas serão:</h3>
 
 | Verbo  | EndPoint        | Descrição do Rota                                       |
 | ------ | --------------- | ------------------------------------------------------- |
