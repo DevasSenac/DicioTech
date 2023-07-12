@@ -1,22 +1,9 @@
 [
-  {
+   {
     "termo": "termo",
     "significado": "significado",
-    "categoria": "categoria"    
-  },  
-  {
-    "termo": "termo",
-    "significado": "significado",
-    "categoria": "categoria"    
-  },
-  {
-    "termo": "termo",
-    "significado": "significado",
-    "categoria": "categoria"    
-  },
-  {
-    "termo": "termo",
-    "significado": "significado",
-    "categoria": "categoria"    
-  }
+    "traducao":"traducao",
+    "inicial":"inicial",
+    "categoria": "categoria"
+  } 
 ]

@@ -4,10 +4,10 @@ import TermoController from "../controllers/termoControllers.js";
 const router = express.Router();
 
 router
-  .get("/", TermoController.getAllTermos)
-  .post("/", TermoController.createTermos)
-  .put("/:id", TermoController.updateTermos)
-  .delete("/:id", TermoController.deleteTermos)
-  .get("/:id", TermoController.getByIdTermos);
-
+    .get("/", TermoController.getAllTermo)
+    .post("/", TermoController.createTermo)
+    .put("/:id", TermoController.updateTermo)
+    .delete("/:id", TermoController.deleteTermo)
+    .get("/:id", TermoController.getByIdTermo)
+    
 export default router;
