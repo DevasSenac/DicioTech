@@ -36,14 +36,14 @@
    |  |    |- 📄 dbConnect.js
    |  ||
    |  ||--📁 controllers
-   |  |    |- 📄 UsuariosController.js
+   |  |    |- 📄 termosController.js
    |  |
    |  ||--📁 models
-   |  |    |- 📄 Usuarios.js
-   |  |    |- 📄 Usuarios.json
+   |  |    |- 📄 termos.js
+   |  |    |- 📄 termo.json
    |  |
    |  ||--📁 routes
-   |  |    |- 📄 Usuario.js
+   |  |    |- 📄 termo.js
    |  |    |- 📄 index.js
    |  |
    |  ||-📄 app.js
@@ -65,13 +65,13 @@ Este projeto está com os métodos HTTP organizados. Você pode testar as rotas 
 
  <h3> Os métodos e rotas serão:</h3>
 
-| Verbo  | EndPoint  | Descrição do Rota                                 |
-| ------ | --------- | ------------------------------------------------- |
-| GET    | /Usuarios | Listar todos as Usuarios cadastrados              |
-| GET    | /:id      | Mostra o cadastro do Usuario por ID               |
-| POST   | /         | Registra um novo Usuario                          |
-| PUT    | /:id      | Altera dados do Usuario identificado pelo id      |
-| DELETE | /:id      | Remove o cadastro do Usuario identificado pelo id |
+| Verbo  | EndPoint | Descrição do Rota                               |
+| ------ | -------- | ----------------------------------------------- |
+| GET    | /Termos  | Listar todos as Termos cadastrados              |
+| GET    | /:id     | Mostra o cadastro do Termo por ID               |
+| POST   | /        | Registra um novo Termo                          |
+| PUT    | /:id     | Altera dados do Termo identificado pelo id      |
+| DELETE | /:id     | Remove o cadastro do Termo identificado pelo id |
 
 ## :heavy_plus_sign: Clonar e Contribuir para o Projeto
 
