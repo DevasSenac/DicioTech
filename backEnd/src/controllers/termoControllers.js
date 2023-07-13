@@ -41,6 +41,21 @@ class TermoController {
     });
   };
 
+  
+  static getByInicialTermo = (req, res) => {
+    const inicial = req.params.inicial;
+  
+    termos.findOne({ inicial: inicial }, (err, termo) => {
+      if (err) {
+        res.status(500).send({ message: `${err.message} - Erro ao buscar o termo do usuário` });
+      } else if (!termo) {
+        res.status(404).send({ message: `Termo do usuário não encontrado` });
+      } else {
+        res.status(200).send(termo);
+      }
+    });
+  };
+
   static updateTermo = (req, res) => {
     const id = req.params.id;
 

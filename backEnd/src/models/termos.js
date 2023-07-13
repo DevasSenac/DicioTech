@@ -1,11 +1,11 @@
 import mongoose from "mongoose";
 
 const termoScheema = new mongoose.Schema({
-  termo: { type: String, required: true },
-  significado: { type: String, required: true },
+  inicial: { type: String },
+  termo: { type: String},
   traducao: { type: String },
-  inicial: { type: String, required: true },
-  categoria: { type: String, required: true }
+  significado: { type: String},
+  categoria: { type: String}
 });
 
 const termos = mongoose.model("termos", termoScheema);

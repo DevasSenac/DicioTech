@@ -9,5 +9,6 @@ router
     .put("/:id", TermoController.updateTermo)
     .delete("/:id", TermoController.deleteTermo)
     .get("/:id", TermoController.getByIdTermo)
+    .get("/:inicial", TermoController.getByInicialTermo)
     
 export default router;

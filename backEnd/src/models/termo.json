@@ -1,9 +1,107 @@
 [
-   {
-    "termo": "termo",
-    "significado": "significado",
-    "traducao":"traducao",
-    "inicial":"inicial",
-    "categoria": "categoria"
-  } 
+  {
+      "inicial": "D",
+      "termo": "Debugging",
+      "traducao": "debugar",
+      "significado": "Processo de encontrar e remover bugs no seu sistema ou hardware.",
+      "categoria": "geral"
+  },
+  {
+      "inicial": "B",
+      "termo": "Browser",
+      "traducao": "navegador",
+      "significado": "Programa usado para acessar sites a internet (ex: Chrome, Mozila, Edge)",
+      "categoria": "geral"
+  },
+  {
+      "inicial": "G",
+      "termo": "Git",
+      "traducao": "Git",
+      "significado": " Git é uma ferramenta de controle de versão de arquivos que permite o trabalho colaborativo sem a necessidade de enviar arquivos diferentes e renomeados por e-mail. Com o Git também é possível saber detalhadamente quem fez cada alteração no arquivo.",
+      "categoria": "geral"
+  },
+  {
+      "inicial": "P",
+      "termo": "body",
+      "traducao": "corpo",
+      "significado": "O elemento do HTML representa o conteúdo de um documento HTML. è permitido apenas um <body> por documento.",
+      "categoria": "front-end"
+  },
+  {
+      "inicial": "P",
+      "termo": "background",
+      "traducao": "plano de fundo",
+      "significado": "URI de uma imagem para usar como um papel de parede. Esse método não está em conformidade, utilize a propriedade CSS",
+      "categoria": "front-end"
+  },
+  {
+      "inicial": "H",
+      "termo": "HTML",
+      "traducao": "Linguagem de Marcação de HiperTexto",
+      "significado": "Utilizada na criação de documentos e páginas da web",
+      "categoria": "front-end"
+  },
+  {
+      "inicial": "S",
+      "termo": "section",
+      "traducao": "seção",
+      "significado": "O elemento HTML que representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo.",
+      "categoria": "front-end"
+  },
+  {
+      "inicial": "M",
+      "termo": "MVC",
+      "traducao": "controlador de exibição de modelo",
+      "significado": "(Model View Controller) Padrão de arquitetura de software que sugere uma divisão de responsabilidades dentro de uma aplicação.",
+      "categoria": "back-end"
+  },
+  {
+      "inicial": "F",
+      "termo": "frameworks",
+      "traducao": "estrutura",
+      "significado": "Estrutura que envolve um conjunto de bibliotecas ou componentes usados para criar uma base onde a aplicação será construída. Proporciona reusabilidade e conexões de linhas de código e provê funcionalidades que se adequa a diversas aplicações.",
+      "categoria": "back-end"
+  },
+  {
+      "inicial": "A",
+      "termo": "API",
+      "traducao": "Interface de Programação de Aplicação",
+      "significado": "(Application Programming Interface  ) são mecanismos que permitem a comunicação (cliente - servidor) entre dois componentes de software por meio de um conjunto de definições e protocolos.",
+      "categoria": "back-end"
+  },
+  {
+      "inicial": "L",
+      "termo": "Library",
+      "traducao": "Bibliotecas",
+      "significado": "Coleção de subprogramas com diversas finalidades para redução do uso de código no desenvolvimento de software. Permite o compartilhamento e a alteração de código e dados de forma modular.",
+      "categoria": "back-end"
+  },
+  {
+      "inicial": "P",
+      "termo": "Persona",
+      "traducao": "pessoa",
+      "significado": "Personagem fictício utilizado para representar o público-alvo de um negócio ou mesmo de um produto. A sua caracterização deve ser detalhada a ponto de representar um “usuário ideal”, e a sua construção deve se basear em dados de pesquisa.",
+      "categoria": "UX/UI"
+  },
+  {
+      "inicial": "P",
+      "termo": "Prototype",
+      "traducao": "Protótipo",
+      "significado": "Versão simplificada de um produto, muitas vezes utilizado para testes, seja de viabilidade, usabilidade ou outros.",
+      "categoria": "UX/UI"
+  },
+  {
+      "inicial": "U",
+      "termo": "User Research:",
+      "traducao": "Pesquisa de usuário",
+      "significado": "Processo de estudo do usuário, envolvendo a descoberta das suas necessidades e das suas dores, para obter insights certeiros para o desenvolvimento do produto.",
+      "categoria": "UX/UI"
+  },
+  {
+      "inicial": "S",
+      "termo": "Storyboard:",
+      "traducao": "Quadro de histórias(?)",
+      "significado": "Esboço em formato de desenhos (quadro a quadro), utilizado para planejar algum conteúdo em vídeo, elaborando-o e detalhando-o.",
+      "categoria": "UX/UI"
+  }
 ]
