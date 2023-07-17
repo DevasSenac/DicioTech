@@ -4,11 +4,13 @@ import TermoController from "../controllers/termoControllers.js";
 const router = express.Router();
 
 router
-    .get("/", TermoController.getAllTermo)
-    .post("/", TermoController.createTermo)
-    .put("/:id", TermoController.updateTermo)
-    .delete("/:id", TermoController.deleteTermo)
-    .get("/:id", TermoController.getByIdTermo)
-    .get("/:inicial", TermoController.getByInicialTermo)
-    
+.get("/", TermoController.getAllTermos)
+.post("/", TermoController.createTermos)
+.put("/:id", TermoController.updateTermos)
+.delete("/:id", TermoController.deleteTermos)
+.delete("/", TermoController.deleteAllTermos)
+.get("/:id", TermoController.getByIdTermos)
+.get('/categoria/:categoria', TermoController.getByCategoriaTermos)
+.get('/inicial/:inicial', TermoController.getByInicialTermos)
+
 export default router;

@@ -4,7 +4,7 @@ const router = Router();
 
 router.get("/", function (req, res) {
   res.status(200).send({
-    title: "projeto DicioTech",
+    title: "Projeto DicioTech",
     version: "1.0.0",
   });
 });
