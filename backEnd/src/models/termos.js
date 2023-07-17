@@ -5,7 +5,8 @@ const termoScheema = new mongoose.Schema({
   termo: { type: String},
   traducao: { type: String },
   significado: { type: String},
-  categoria: { type: String}
+  categoria: { type: String},
+  exemplos:{type: String}
 });
 
 const termos = mongoose.model("termos", termoScheema);
