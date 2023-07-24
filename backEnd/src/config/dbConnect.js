@@ -1,7 +1,8 @@
 import { mongoose } from "mongoose";
+import 'dotenv/config';
 
 mongoose.connect(
-  "mongodb+srv://user:delis123@cluster0.5ogdpir.mongodb.net/DicioTech"
+  process.env.URLMONGO
 );
 
 let db = mongoose.connection;
