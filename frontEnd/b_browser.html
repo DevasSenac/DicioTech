@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Diciotech</title>
+ </head>
+ <body>
+   <header class="header">
+
+      <div class="logo">
+         <a href="index.html">
+         <img src= "img/diciotech.png">
+         </a>
+      </div> 
+       
+      <section class="acessibilidade">
+         <img src="img/iconLeitordetexto.png">
+         <img src="img/iconAcessibilidade.png">
+      </section>
+
+      <nav class="menu">
+           <a href="index.html">Home</a>
+           <a href="sobre.html">Sobre Nós</a>
+           <a href="area_ti.html">Áreas de TI</a>
+       </nav>
+
+      <div class ="barraInt">
+     <input id="searchbar" onkeyup="search_palavra()" type="text" name="busca" placeholder="Buscar termos..."> <!--COLOCAR A FUNÇÃO DE PESQUISA-->
+   </div>
+
+   <div class = "alfabeto">
+      <ol class="suggestions"> 
+         <li><a href="letra_a.html">A</a></li>
+         <li><a href="">B</a></li>
+         <li><a href="">C</a></li>
+         <li><a href="">D</a></li>
+         <li><a href="">E</a></li>
+         <li><a href="">F</a></li>
+         <li><a href="">G</a></li>
+         <li><a href="">H</a></li>
+         <li><a href="">I</a></li>
+         <li><a href="">J</a></li>
+         <li><a href="">K</a></li>
+         <li><a href="">L</a></li>
+         <li><a href="">M</a></li>
+         <li><a href="">N</a></li>
+         <li><a href="">O</a></li>
+         <li><a href="">P</a></li>
+         <li><a href="">Q</a></li>
+         <li><a href="">R</a></li>
+         <li><a href="">S</a></li>
+         <li><a href="">T</a></li>
+         <li><a href="">U</a></li>
+         <li><a href="">V</a></li>
+         <li><a href="">W</a></li>
+         <li><a href="">X</a></li>
+         <li><a href="">Y</a></li>
+         <li><a href="">Z</a></li>
+      </ol>
+   </div>
+   </header>
+
+   <main class="mainS">
+      <section class="api"> <!--Parte branca-->
+         <h1 class="TituloA">Browser</h1>
+         <p class="apiA">Programa responsável por interpretar o código HTML, CSS e Javascript para exibir conteúdos na internet de forma formatada e interativa.
+         <br>Ao digitar www.google.com na barra de endereços do seu browser e pressionar Enter, o browser enviará uma requisição ao servidor do Google para buscar a página inicial do Google. Em seguida, ele renderizará o conteúdo, incluindo a caixa de pesquisa e os botões, permitindo que você realize pesquisas na web.
+         </p>      
+      </section>
+   <!-- CÓDIGO QUE SERÁ UTILIZADO NA FUNÇÃO JAVASCRIPT DO QUIZ - NÃO ALTERAR SEM AVISO-->
+
+      <section class="quiz_fullstack">
+         <section class="quiz_pergunta">
+            <h2 class="quizN"> Quiz</h2>
+            <h4 class="afir">Qual é a melhor turma SENAC-PE?</h4>
+            <!-- precisa colocar a função valid no lugar correto, mas já pode mexer na estilização-->
+            <section>
+               <input type="radio" name="a1">
+               <span>A- Devas Full Stack SENAC-PE</span><br>
+               </section>
+               <input type="radio" name="a2">
+               <span>B- Outros</span></br>
+               <span id="mensagem" valid="valid" class="quizN"></span>
+               <button onclick="verificarResposta()">Enviar</button>
+            </section>
+         </section> 
+      </section>
+   </main>
+
+<footer class="rodape">
+   <section class="ladoalado">
+       <div class="instituicoes">
+               <!-- <div id="senac"><img src="img/senac.png" alt="Logo SENAC" > </div>
+               <div id="portoD"><img src="img/portoD.png" alt="Logo Porto Digital"></div>
+               <div id="minas"><img src="img/minas.png" alt="Logo M.I.N.A.S"></div>  -->
+       </div>
+
+       <div class="diciotech">
+           <h4>Diciotech</h4>
+               <p><span>Desenvolvido pela primeira turma afirmativa de Desenvolvimento Full Stack do SENAC-PE em parceria com o  Porto Digital.</span></p>
+               <p id="cpr">Copyright © Todos os Direitos Reservados - 2023.</p>
+       </div>
+
+       <div class="redes">
+           <h4>Nos encontre em</h4>
+           <div class="icons">
+               <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+               <a href="#"><img src="img/mail.png" alt="E-mail"></a>
+               <a href="#"><img src="img/github.png" alt="Github"></a>
+               <a href="#"><img src="img/linkedin.png" alt="Linkedin"></a>
+               <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+               <a href="#"><img src="img/youtube.png" alt="Youtube"></a>
+           </div>
+       </div>
+
+       <div class="mobl">
+           <h4>Disponível em mobile</h4>
+               <a href="#"class="mobile"><img src="img/appstore.png" alt="Link Applestore"></a>
+               <a href="#"class="mobile"><img src="img/playstore.png" alt="Link Playstore"></a>
+         </div>
+         
+      <div class="leitorTexto">
+                <a href="#"class="leitor"><img src="img/iconLeitordetexto.png" alt="Ícone leitor de texto"></a>
+                <a href="#"class="volM"><img src="img/iconAumentarvolume.png" alt="Ícone aumentar volume"></a>
+                <a href="#"class="volm"><img src="img/iconDiminuirvolume.png" alt="Ícone diminuir volume"></a>
+      </div>
+      </section>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
