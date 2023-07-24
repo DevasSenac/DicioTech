@@ -89,3 +89,8 @@ function verificarResposta() {
       "Você errou! A turma Devas Full Stack é a melhor."; //Caso a resposta selecionada seja incorreta,uma mensagem de erro na mesma div "mensagem".//
   }
 }
+
+/*Fim Função para o Quiz*/
+
+
+
