@@ -1,3 +1,31 @@
+const botoesLetra = document.querySelectorAll(".letra-click");
+
+botoesLetra.forEach((botao) => {
+  botao.addEventListener("click", () => {
+    const letraInicial = botao.value;
+    const apiUrl = `http://localhost:8080/termos/inicial/${letraInicial}`;
+
+    fetch(apiUrl)
+      .then((response) => response.json())
+      .then((data) => {
+        const letraApi = document.querySelector("#busca-c");
+        letraApi.innerHTML = "";
+
+        data.forEach((item) => {
+          const row = document.createElement("div");
+          row.classList.add("div-termo-detalhado");
+          row.innerHTML = `
+            <p class="quizN">${item.termo}</p>
+            <h2 class="TituloA">Significado: ${item.traducao}</h2>
+            <h4 class="apiA">Tradução: ${item.significado}</h4>
+          `;
+          letraApi.appendChild(row);
+        });
+      })
+      .catch((error) => console.error("Erro ao obter dados da API:", error));
+  });
+});
+
 // função utilizada para animação digitando na plataforma//
 
 function ativaDigitando(elemento, frase, velocidade) {
@@ -91,6 +119,3 @@ function verificarResposta() {
 }
 
 /*Fim Função para o Quiz*/
-
-
-

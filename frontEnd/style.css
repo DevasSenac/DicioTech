@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik:wght@300;400;500&display=swap");
 
+.letra-click {
+  all: unset;
+  color: white;
+}
+
+.div-termo-detalhado {
+  font-size: 18px;
+  color: #35505f;
+  padding: 10px; /*Centralizar o texto inteiro dentro da caixa*/
+  border-radius: 8px;
+  background-color: rgba(	191, 164, 247, 0.4);
+  text-align: justify;
+  align-items: center;
+  margin: 10px;
+}
+.div-termo-detalhado p {
+  font-size: 35px;  
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -107,7 +126,7 @@ li a {
 }
 
 .alfabeto li:hover {
-  background-color: #8386f5;
+  background-color: #6495ed;
   border-radius: 0px 0px 15px 15px;
   color: #000000;
   padding: 5px 10px 5px 10px;
@@ -386,7 +405,7 @@ button {
 }
 
 button:hover {
-  background-color: #defe47;
+  background-color: #6495ed;
 }
 
 /*--------------------SOBRE NÓS------------------*/
