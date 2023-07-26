@@ -8,11 +8,23 @@
 
 O front-end do Dicionário Tech foi desenvolvido utilizando as seguintes tecnologias:
 
+- **Figma:** Prototipação e Design.
 - **HTML:** Linguagem de marcação para estruturação do conteúdo do site.
 - **CSS:** Linguagem de estilização para definir o layout e a aparência visual.
-- **Bootstrap:** Framework CSS que facilita o desenvolvimento responsivo e a criação de componentes.
-
+- **JavaScript:** Linguagem de programação.
+  
 ## Funcionalidades
+
+
+- **Barra de Pesquisa por Letra Inicial:** Os usuários podem pesquisar os termos técnicos iniciados por uma letra específica para encontrar definições relacionadas.
+
+- **Barra de Pesquisa por Área de Atuação:** Os usuários podem pesquisar termos técnicos relacionados a uma área de atuação específica, como programação, redes, segurança, design, etc.
+
+- **Quiz Interativo:** Oferecemos um quiz interativo para testar o conhecimento dos usuários sobre os termos técnicos. É uma forma divertida de aprender e revisar o material.
+
+- **Ampla Variedade de Termos:** Disponibilizamos uma extensa lista de termos técnicos, abrangendo várias áreas da tecnologia, para que os usuários possam expandir seu vocabulário.
+
+
 
 ## Análise de Persona
 
@@ -25,14 +37,5 @@ Compreendemos que as pessoas que estão começando na área de tecnologia podem 
 ## Interface do Projeto
 
 Para a interface do projetocriamos uma interface intuitiva para uma experiência agradável para os usuários.
-Utilizamos a ferramenta Figma para a prototipação e design.
+Utilizamos a ferramenta.
 
-- **Barra de Pesquisa por Letra Inicial:** Os usuários podem pesquisar os termos técnicos iniciados por uma letra específica para encontrar definições relacionadas.
-
-- **Barra de Pesquisa por Área de Atuação:** Os usuários podem pesquisar termos técnicos relacionados a uma área de atuação específica, como programação, redes, segurança, design, etc.
-
-- **Quiz Interativo:** Oferecemos um quiz interativo para testar o conhecimento dos usuários sobre os termos técnicos. É uma forma divertida de aprender e revisar o material.
-
-- **Ampla Variedade de Termos:** Disponibilizamos uma extensa lista de termos técnicos, abrangendo várias áreas da tecnologia, para que os usuários possam expandir seu vocabulário.
-
----
