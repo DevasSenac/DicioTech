@@ -10,14 +10,14 @@
   color: #35505f;
   padding: 10px; /*Centralizar o texto inteiro dentro da caixa*/
   border-radius: 18px;
-  background-color: rgba(	191, 164, 247, 0.4);
+  background-color: rgba(191, 164, 247, 0.4);
   text-align: justify;
   align-items: center;
-  margin: 20px;  
+  margin: 20px;
 }
 
 .div-termo-detalhado p {
-  font-size: 35px;  
+  font-size: 35px;
 }
 
 * {
