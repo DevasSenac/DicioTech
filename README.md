@@ -6,8 +6,7 @@
  <img src="https://media.tenor.com/2a4KThsm4YgAAAAj/gaming-game-on.gif"  height="200" alt="Descrição da Imagem">
  </p>
 
-
-# Sobre o Projeto
+ # Sobre o Projeto
 
 O DICIOTECH funcionará como um dicionário tecnológico, oferecendo um passatempo educativo com palavras frequentemente usadas na área da tecnologia, suas traduções e significados. Sua didática será através de recursos interativos, tornando o aprendizado divertido e acessível a todos os interessados em tecnologia.
 
@@ -32,5 +31,7 @@ Utilizaremos a ferramenta Figma para a prototipação e design.
 
 Esperamos que esse README corporativo forneça uma visão clara e abrangente do projeto DICTECH. Fique à vontade para entrar em contato caso tenha alguma dúvida ou precise de mais informações.
 
-### [Documentação Tecnica Back End](./backEnd/README.md)
-### [Documentação Tecnica Front End](./frontEnd/README.md)
+# Acesse a Documentação Tecnica
+
+[**Back End**](./backEnd/README.md) <br>
+[**Front End**](./frontEnd/README.md)

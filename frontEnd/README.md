@@ -4,11 +4,11 @@
   <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/4b8c8795701017.5e9dc4f86f6eb.gif">
 </p>
 
-## Público-alvo
+## Análise de Persona
 
 O Dicionário Tech destina-se a iniciantes na área de tecnologia que desejam adquirir familiaridade com os termos técnicos utilizados no campo. Nosso site é projetado para ser fácil de usar, mesmo para aqueles sem conhecimento prévio da área.
 
-## Desafios Técnicos Comuns
+## Análise de Experiencia do Usuário
 
 Compreendemos que as pessoas que estão começando na área de tecnologia podem enfrentar dificuldades com termos técnicos desconhecidos. Para superar esse desafio, fornecemos explicações claras e concisas para cada termo técnico em nosso dicionário, evitando jargões complicados sempre que possível. Nossa abordagem visa tornar a aprendizagem mais acessível e amigável.
 
