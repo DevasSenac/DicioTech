@@ -1,22 +1,362 @@
-[
-  {
-    "termo": "termo",
-    "significado": "significado",
-    "categoria": "categoria"    
-  },  
-  {
-    "termo": "termo",
-    "significado": "significado",
-    "categoria": "categoria"    
-  },
-  {
-    "termo": "termo",
-    "significado": "significado",
-    "categoria": "categoria"    
-  },
-  {
-    "termo": "termo",
-    "significado": "significado",
-    "categoria": "categoria"    
-  }
-]
+{
+    "A": [{
+        "inicial": "A",
+        "termo": "API",
+        "traducao": "Interface de Programação de Aplicação",
+        "significado": "As APIs são um conjunto de padrões que fazem parte de uma interface. As APIs permitem a criação de plataformas de maneira mais simples e prática para desenvolvedores. A partir de APIs, é possível criar softwares, aplicativos, programas e plataformas diversas.",
+        "categoria": "back-end",
+        "exemplos": " Por exemplo, apps desenvolvidos para celulares Android e iPhone (iOS) são criados a partir de padrões definidos e disponibilizados pelas APIs de cada sistema operacional."
+    }],
+
+
+    "B": [{
+            "inicial": "B",
+            "termo": "Browser",
+            "traducao": "navegador",
+            "significado": "Programa responsável por interpretar o código HTML, CSS e Javascript para exibir conteúdos na internet de forma formatada e interativa",
+            "categoria": "geral",
+            "exemplos": "ao digitar www.google.com na barra de endereços do seu browser e pressionar Enter, o browser enviará uma requisição ao servidor do Google para buscar a página inicial do Google. Em seguida, ele renderizará o conteúdo, incluindo a caixa de pesquisa e os botões, permitindo que você realize pesquisas na web."
+        },
+        {
+            "inicial": "B",
+            "termo": "body",
+            "traducao": "corpo ou conteúdo",
+            "significado": "O elemento do HTML representa o conteúdo de um documento HTML. è permitido apenas um <body> por documento.",
+            "categoria": "front-end",
+            "exemplos": "Imagine que você está construindo um aplicativo de cadastro de usuários. Quando um novo usuário preenche o formulário de registro e envia os dados, uma requisição POST é feita ao servidor. Os dados do usuário, como nome, email e senha, são incluídos no <body> dessa requisição."
+        }
+    ],
+
+
+    "C": [{
+            "inicial": "C",
+            "termo": "codar",
+            "traducao": "programar",
+            "significado": "Ato de programar",
+            "categoria": "geral",
+            "exemplos": "exemplos"
+        },
+        {
+            "inicial": "C",
+            "termo": "cost",
+            "traducao": "custo",
+            "significado": "Recursos financeiros e de infraestrutura necessários para adquirir, desenvolver, implantar, e manter um produto, serviço ou sistema.",
+            "categoria": "geral",
+            "exemplos": "exemplos"
+        }
+    ],
+
+
+    "D": [{
+            "inicial": "D",
+            "termo": "Debugging",
+            "traducao": "debugar",
+            "significado": "Processo de encontrar e remover bugs no seu sistema ou hardware.",
+            "categoria": "geral",
+            "exemplos": "exemplos"
+        },
+
+
+        {
+            "inicial": "D",
+            "termo": "Doctype",
+            "traducao": "Tipo de Documento",
+            "significado": "Explica sobre qual documento estamos trabalhando.",
+            "categoria": "geral",
+            "exemplos": "exemplos"
+        }
+    ],
+
+
+    "F": [{
+            "inicial": "F",
+            "termo": "frameworks",
+            "traducao": "estrutura",
+            "significado": "Estrutura que envolve um conjunto de bibliotecas ou componentes usados para criar uma base onde a aplicação será construída. Proporciona reusabilidade e conexões de linhas de código e provê funcionalidades que se adequa a diversas aplicações.",
+            "categoria": "back-end",
+            "exemplos": "exemplos"
+        },
+
+
+        {
+            "inicial": "F",
+            "termo": "Form",
+            "traducao": "Formulário",
+            "significado": "Usado para definir formulários e atributos.",
+            "categoria": "geral",
+            "exemplos": "exemplos"
+        }
+    ],
+
+
+    "G": [{
+            "inicial": "G",
+            "termo": "Git",
+            "traducao": "",
+            "significado": " Git é uma ferramenta de controle de versão de arquivos que permite o trabalho colaborativo sem a necessidade de enviar arquivos diferentes e renomeados por e-mail. Com o Git também é possível saber detalhadamente quem fez cada alteração no arquivo.",
+            "categoria": "geral",
+            "exemplos": "exemplos"
+        },
+        {
+            "inicial": "G",
+            "termo": "Get",
+            "traducao": "Pegar",
+            "significado": "Usado para denominar o que o código precisa responder.",
+            "exemplos": "exemplos",
+            "categoria": "geral"
+        }
+    ],
+
+
+    "H": [{
+            "inicial": "H",
+            "termo": "HTML",
+            "traducao": "Linguagem de Marcação de HiperTexto",
+            "significado": "Utilizada na criação de documentos e páginas da web",
+            "categoria": "front-end",
+            "exemplos": "exemplos"
+        },
+        {
+            "inicial": "H",
+            "termo": "Head",
+            "traducao": "Cabeça",
+            "significado": "Utilizado para expressar as informações que não são vísiveis para o usuário",
+            "categoria": "front-end",
+            "exemplos": "exemplos"
+        }
+    ],
+
+
+    "I": [{
+        "inicial": "I",
+        "termo": "Input",
+        "traducao": "Entrada",
+        "significado": "Usado para denominar do dado de entrada da programação",
+        "categoria": "back-end",
+        "exemplos": "exemplos"
+    }],
+
+
+    "J": [{
+        "inicial": "J",
+        "termo": "JavaScript",
+        "traducao": "",
+        "significado": "Linguagem utilizada para programação que permite a criação de conteúdos dinâmicos",
+        "categoria": "back-end",
+        "exemplos": "exemplos"
+    }],
+
+
+    "K": [{
+        "inicial": "K",
+        "termo": "Keyword",
+        "traducao": "Palavra-chave",
+        "significado": "Forma como um usuário escreve sua dúvida nos buscadores com o intuito de obter respostas e concluir suas pesquisas.",
+        "categoria": "back-end",
+        "exemplos": "exemplos"
+    }],
+
+
+    "L": [{
+            "inicial": "L",
+            "termo": "Library",
+            "traducao": "Bibliotecas",
+            "significado": "Coleção de subprogramas com diversas finalidades para redução do uso de código no desenvolvimento de software. Permite o compartilhamento e a alteração de código e dados de forma modular.",
+            "categoria": "back-end",
+            "exemplos": "exemplos"
+        },
+
+
+        {
+            "inicial": "L",
+            "termo": "Label",
+            "traducao": "Rótulo",
+            "significado": "Maneira formal de definição de um rótulo de formulário",
+            "categoria": "geral",
+            "exemplos": "exemplos"
+        }
+    ],
+
+
+    "M": [{
+            "inicial": "M",
+            "termo": "MVC",
+            "traducao": "controlador de exibição de modelo",
+            "significado": "(Model View Controller) Padrão de arquitetura de software que sugere uma divisão de responsabilidades dentro de uma aplicação.",
+            "categoria": "back-end",
+            "exemplos": "exemplos"
+        },
+
+
+        {
+            "inicial": "M",
+            "termo": "Main",
+            "traducao": "Menu",
+            "significado": "A função main serve como o ponto de partida para a execução do programa.",
+            "categoria": "back-end",
+            "exemplos": "Em geral, ela controla a execução direcionando as chamadas para outras funções no programa."
+        }
+    ],
+
+
+    "N": [{
+        "inicial": "N",
+        "termo": "Name",
+        "traducao": "Nome",
+        "significado": "Função utilizada para obter ou definir o nome de um objeto.",
+        "categoria": "back-end",
+        "exemplos": "exemplos"
+    }],
+
+
+    "O": [{
+        "inicial": "O",
+        "termo": "Optional",
+        "traducao": "Opção",
+        "significado": "é um termo que geralmente se refere a uma escolha, configuração ou parâmetro que permite personalizar o comportamento de um programa ou função.",
+        "categoria": "Front-End",
+        "exemplos": "exemplos"
+    }],
+
+
+    "P": [{
+            "inicial": "P",
+            "termo": "Persona",
+            "traducao": "pessoa",
+            "significado": "Personagem fictício utilizado para representar o público-alvo de um negócio ou mesmo de um produto. A sua caracterização deve ser detalhada a ponto de representar um “usuário ideal”, e a sua construção deve se basear em dados de pesquisa.",
+            "categoria": "UX-UI",
+            "exemplos": "exemplos"
+        },
+
+
+        {
+            "inicial": "P",
+            "termo": "Prototype",
+            "traducao": "Protótipo",
+            "significado": "Versão simplificada de um produto, muitas vezes utilizado para testes, seja de viabilidade, usabilidade ou outros.",
+            "categoria": "UX-UI",
+            "exemplos": "exemplos"
+        },
+
+
+        {
+            "inicial": "P",
+            "termo": "Player",
+            "traducao": "Reprodutor",
+            "significado": "Utilizado no html para definir uma apresentação de video.",
+            "categoria": "Front-End",
+            "exemplos": "exemplos"
+        }
+    ],
+
+
+    "Q": [{
+        "inicial": "Q",
+        "termo": "Query",
+        "traducao": "Consulta",
+        "significado": " É uma solicitação de informações feita ao banco de dados. que retorna uma tabela ou um conjunto delas, figuras, gráficos ou resultados complexos.",
+        "categoria": "back-end",
+        "exemplos": "exemplos"
+    }],
+
+
+    "R": [{
+        "inicial": "R",
+        "termo": "Router",
+        "traducao": "Rota",
+        "significado": "Utilizado para definir qual a rota que será seguida no código.",
+        "categoria": "back-end",
+        "exemplos": "Rota usada para pegar Id de um banco de dados"
+    }],
+
+
+    "S": [{
+            "inicial": "S",
+            "termo": "section",
+            "traducao": "seção",
+            "significado": "O elemento HTML que representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo.",
+            "categoria": "front-end",
+            "exemplos": "exemplos"
+        },
+
+
+        {
+            "inicial": "S",
+            "termo": "Storyboard:",
+            "traducao": "Quadro de histórias(?)",
+            "significado": "Esboço em formato de desenhos (quadro a quadro), utilizado para planejar algum conteúdo em vídeo, elaborando-o e detalhando-o.",
+            "categoria": "UX-UI",
+            "exemplos": "exemplos"
+        },
+
+
+        {
+            "inicial": "S",
+            "termo": "Style",
+            "traducao": "Estilo",
+            "significado": "Comando que adiciona diagramação no html",
+            "categoria": "Front-End",
+            "exemplos": "exemplos"
+        }
+    ],
+
+
+    "T": [{
+        "inicial": "T",
+        "termo": "Tag",
+        "traducao": "Marcação",
+        "significado": "Utilizado para definir um marcador no campo do texto",
+        "categoria": "Front-End",
+        "exemplos": "exemplos"
+    }],
+
+
+    "U": [{
+        "inicial": "U",
+        "termo": "User Research:",
+        "traducao": "Pesquisa de usuário",
+        "significado": "Processo de estudo do usuário, envolvendo a descoberta das suas necessidades e das suas dores, para obter insights certeiros para o desenvolvimento do produto.",
+        "categoria": "UX-UI",
+        "exemplos": "exemplos"
+    }],
+
+
+    "V": [{
+        "inicial": "V",
+        "termo": "Varchar",
+        "traducao": "Campo de caráter variável. ",
+        "significado": "Utilizado para denominar um tipo de dados de um campo ou coluna em um sistema de gerenciamento de banco de dados que pode conter letras e números.",
+        "categoria": "UX-UI",
+        "exemplos": "exemplos"
+    }],
+
+
+    "W": [{
+        "inicial": "W",
+        "termo": "Width",
+        "traducao": "Largura",
+        "significado": "Usado para definir altura da foto ou player de vídeo",
+        "categoria": "Front-End",
+        "exemplos": "exemplos"
+    }],
+
+
+    "X": [{
+        "inicial": "X",
+        "termo": "XML",
+        "traducao": "Sigla para: Linguagem de marcação extensiva",
+        "significado": " para formatar documentos de forma que eles sejam facilmente lidos tanto por humanos quanto por máquinas.",
+        "categoria": "geral",
+        "exemplos": "exemplos"
+    }],
+
+
+    "Z": [{
+        "inicial": "Z",
+        "termo": "Zipar",
+        "traducao": "Compactar",
+        "significado": "Ocupam menos espaço de armazenamento e podem ser transferidos para outros computadores mais rapidamente do que arquivos não compactados",
+        "categoria": "geral",
+        "exemplos": "exemplos"
+    }]
+}

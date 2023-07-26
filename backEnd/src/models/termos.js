@@ -1,8 +1,12 @@
 import mongoose from "mongoose";
 
 const termoScheema = new mongoose.Schema({
-  nome: { type: String, required: true },
-  email: { type: String, required: true },
+  inicial: { type: String },
+  termo: { type: String},
+  traducao: { type: String },
+  significado: { type: String},
+  categoria: { type: String},
+  exemplos:{type: String}
 });
 
 const termos = mongoose.model("termos", termoScheema);
