@@ -1,4 +1,4 @@
-// Seu código JavaScript
+// Seu código JavaScript click da letra
 const botoesLetra = document.querySelectorAll(".letra-click");
 
 botoesLetra.forEach((botao) => {
