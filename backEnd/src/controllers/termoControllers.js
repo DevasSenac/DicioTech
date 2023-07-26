@@ -1,4 +1,4 @@
-import termos from "../models/termos.js";
+import termos from '../models/termos.js';
 
 class TermoController {
   static getAllTermo = (req, res) => {
@@ -45,7 +45,7 @@ class TermoController {
     const inicial = req.params.inicial;
 
     termos.find(
-      { termo: { $regex: `^${inicial}`, $options: "i" } },
+      { termo: { $regex: `^${inicial}`, $options: 'i' } },
       (err, termos) => {
         if (err) {
           res
@@ -81,7 +81,7 @@ class TermoController {
 
     termos.findByIdAndUpdate(id, { $set: req.body }, (err) => {
       if (!err) {
-        res.status(200).send({ message: "Termo atualizado com sucesso" });
+        res.status(200).send({ message: 'Termo atualizado com sucesso' });
       } else {
         res.status(500).send({ message: err.message });
       }
@@ -93,7 +93,7 @@ class TermoController {
 
     termos.findByIdAndDelete(id, (err) => {
       if (!err) {
-        res.status(200).send({ message: "Termo removido com sucesso" });
+        res.status(200).send({ message: 'Termo removido com sucesso' });
       } else {
         res.status(500).send({ message: err.message });
       }
@@ -103,7 +103,7 @@ class TermoController {
   static deleteAllTermos = async (req, res) => {
     try {
       await termos.deleteMany({});
-      res.status(200).send({ message: "Todos os termos foram removidos com sucesso" });
+      res.status(200).send({ message: 'Todos os termos foram removidos com sucesso' });
     } catch (error) {
       res.status(500).send({ message: error.message });
     }

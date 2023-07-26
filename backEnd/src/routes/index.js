@@ -1,15 +1,15 @@
-import Router from "express";
+import Router from 'express';
 
 const router = Router();
 
-router.get("/", function (req, res) {
+router.get('/', function (req, res) {
   // res.status(200).send({
-  //   title: "Projeto DicioTech",
-  //   version: "1.0.0",
+  //   title: 'Projeto DicioTech',
+  //   version: '1.0.0',
   // });
 
   // GET all Termos
-  router.get("/", async (req, res) => {
+  router.get('/', async (req, res) => {
     try {
       const termos = await Termo.find();
       res.json(termos);
@@ -19,7 +19,7 @@ router.get("/", function (req, res) {
   });
 
   // POST a new task
-  router.post("/", async (req, res) => {
+  router.post('/', async (req, res) => {
     const termo = new Termo({
       significado: req.body.significado,
     });

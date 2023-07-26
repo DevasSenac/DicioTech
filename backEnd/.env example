@@ -1,0 +1,5 @@
+PORT=
+URL_MONGO=
+# Necessário criar um arquivo .env com essas váriaveis no projeto, esse arquivo deveria estar vazio sem nenhuma váriavel
+# e no arquivo .env ter todas os dados sensíveis que irão ser ignorados nos commits evitando o vazamento desses dados.
+# No arquivo .env atribuir PORT=8080 e URL_MONGO=mongodb+srv://user:delis123@cluster0.5ogdpir.mongodb.net/DicioTech

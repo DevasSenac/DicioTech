@@ -8,9 +8,10 @@
 const MongooseError = require('./');
 
 class DivergentArrayError extends MongooseError {
-  /*!
+  /**
    * DivergentArrayError constructor.
    * @param {Array<String>} paths
+   * @api private
    */
   constructor(paths) {
     const msg = 'For your own good, using `document.save()` to update an array '
@@ -20,7 +21,7 @@ class DivergentArrayError extends MongooseError {
             + 'the entire array is not supported. The following '
             + 'path(s) would have been modified unsafely:\n'
             + '  ' + paths.join('\n  ') + '\n'
-            + 'Use Model.update() to update these arrays instead.';
+            + 'Use Model.updateOne() to update these arrays instead.';
     // TODO write up a docs page (FAQ) and link to it
     super(msg);
   }
