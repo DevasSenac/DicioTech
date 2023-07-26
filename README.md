@@ -2,7 +2,10 @@
 
 [![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-9C27B0.svg)](https://github.com/seu-usuario/seu-repositorio)
 
-![](https://media.tenor.com/2a4KThsm4YgAAAAj/gaming-game-on.gif)
+<p align="center"> 
+ <img src="https://media.tenor.com/2a4KThsm4YgAAAAj/gaming-game-on.gif"  height="200" alt="Descrição da Imagem">
+ </p>
+
 
 # Sobre o Projeto
 
@@ -28,3 +31,6 @@ Para a interface do projeto, estamos aprendendo sobre UX (User Experience) e UI 
 Utilizaremos a ferramenta Figma para a prototipação e design.
 
 Esperamos que esse README corporativo forneça uma visão clara e abrangente do projeto DICTECH. Fique à vontade para entrar em contato caso tenha alguma dúvida ou precise de mais informações.
+
+### [Documentação Tecnica Back End](./backEnd/README.md)
+### [Documentação Tecnica Front End](./frontEnd/README.md)

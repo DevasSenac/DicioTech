@@ -1,1 +1,33 @@
-Documentação Front-End
+# Dicionário Tech - Documentação Front-End
+
+<p align="center">
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/4b8c8795701017.5e9dc4f86f6eb.gif">
+</p>
+
+## Público-alvo
+
+O Dicionário Tech destina-se a iniciantes na área de tecnologia que desejam adquirir familiaridade com os termos técnicos utilizados no campo. Nosso site é projetado para ser fácil de usar, mesmo para aqueles sem conhecimento prévio da área.
+
+## Desafios Técnicos Comuns
+
+Compreendemos que as pessoas que estão começando na área de tecnologia podem enfrentar dificuldades com termos técnicos desconhecidos. Para superar esse desafio, fornecemos explicações claras e concisas para cada termo técnico em nosso dicionário, evitando jargões complicados sempre que possível. Nossa abordagem visa tornar a aprendizagem mais acessível e amigável.
+
+## Tecnologias Utilizadas
+
+O front-end do Dicionário Tech foi desenvolvido utilizando as seguintes tecnologias:
+
+- **HTML:** Linguagem de marcação para estruturação do conteúdo do site.
+- **CSS:** Linguagem de estilização para definir o layout e a aparência visual.
+- **Bootstrap:** Framework CSS que facilita o desenvolvimento responsivo e a criação de componentes.
+
+## Funcionalidades
+
+- **Barra de Pesquisa por Letra Inicial:** Os usuários podem pesquisar os termos técnicos iniciados por uma letra específica para encontrar definições relacionadas.
+
+- **Barra de Pesquisa por Área de Atuação:** Os usuários podem pesquisar termos técnicos relacionados a uma área de atuação específica, como programação, redes, segurança, design, etc.
+
+- **Quiz Interativo:** Oferecemos um quiz interativo para testar o conhecimento dos usuários sobre os termos técnicos. É uma forma divertida de aprender e revisar o material.
+
+- **Ampla Variedade de Termos:** Disponibilizamos uma extensa lista de termos técnicos, abrangendo várias áreas da tecnologia, para que os usuários possam expandir seu vocabulário.
+
+---
