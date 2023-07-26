@@ -24,14 +24,7 @@ Aplicação do Lean para otimizar e enxugar os processos.
 
 Para o gerenciamento do projeto, realizamos uma análise SWOT, identificando os pontos fortes, fracos, oportunidades e ameaças. Essa análise nos ajudou a traçar estratégias e tomar decisões informadas ao longo do desenvolvimento.
 
-## Interface do Projeto
-
-Para a interface do projeto, estamos aprendendo sobre UX (User Experience) e UI (User Interface) para criar uma experiência intuitiva e agradável para os usuários.
-Utilizaremos a ferramenta Figma para a prototipação e design.
-
-Esperamos que esse README corporativo forneça uma visão clara e abrangente do projeto DICTECH. Fique à vontade para entrar em contato caso tenha alguma dúvida ou precise de mais informações.
-
-# Acesse a Documentação Tecnica
+## Acesse a Documentação Tecnica
 
 [**Back End**](./backEnd/README.md) <br>
 [**Front End**](./frontEnd/README.md)
