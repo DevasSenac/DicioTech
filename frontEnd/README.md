@@ -6,7 +6,7 @@
 
 O front-end do Dicionário Tech foi desenvolvido utilizando as seguintes tecnologias:
 
-- **Figma:** Prototipação e Design.
+- **Figma:** Ferramenta de Prototipação e Design.
 - **HTML:** Linguagem de marcação para estruturação do conteúdo do site.
 - **CSS:** Linguagem de estilização para definir o layout e a aparência visual.
 - **JavaScript:** Linguagem de programação.
